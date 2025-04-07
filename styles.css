@@ -1,15 +1,36 @@
+/*Top Bar */
+.topbar{
+	background-color: black;
+	overflow: hidden;
+	display: flex;
+	
+	justify-content: center;
+	align-items: center;
+	min-height : 80px;
+	width: 100%;
 
-h1 {
-	color: red;
 }
 
-p,
-li {
-	color: green;
+.topbar h1{
+	color: white;
+	font-size: 40px;
+	margin: 0	
 }
 
-/*class*/
-.special {
-  color: orange;
-  font-weight: bold;
+/*Bar with the links to pages*/
+.topnav {
+	background-color: #e8e8e8;
+	display: flex;
+	
+	justify-content: space-evenly;
+	align-items: center;
+	min-height : 40px;
+	width: 100%;
+}
+
+.topnav a{
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+	
 }
