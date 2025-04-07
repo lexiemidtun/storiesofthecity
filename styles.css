@@ -7,3 +7,9 @@ p,
 li {
 	color: green;
 }
+
+/*class*/
+.special {
+  color: orange;
+  font-weight: bold;
+}
