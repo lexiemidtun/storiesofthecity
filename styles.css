@@ -12,7 +12,7 @@ header{
 }
 
 header.mainscreen{
-	background-image: url('/images/floatingBooksImage.jpg');
+	background-image: url('images/floatingBooksImage.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
