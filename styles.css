@@ -10,6 +10,7 @@ header{
 	
 	display: flex;
 	width: 100%;
+	position: relative;
 	
 	
 
@@ -51,18 +52,21 @@ header.mainscreen h1{
 
 /*Bar with the links to pages*/
 nav {
-	background-color: #e8e8e8;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width:100%;
+
+	background-color: rgba(0,0,0,0.6);
 	display: flex;
-	
 	justify-content: space-evenly;
 	align-items: center;
-	min-height : 40px;
-	width: 100%;
+	padding: 10px 0;
 }
 
 nav a{
 	font-size: 20px;
-	color: black;
+	color: white;
 	text-decoration: none;
 	
 }
