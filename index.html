@@ -4,6 +4,7 @@
   
   <!-- HTML setup stuff-->
 	<link rel="stylesheet" href="styles.css" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com"> <!--Look up "google fonts" to find fonts and names-->
     <meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
@@ -15,17 +16,27 @@
 	<header class="mainscreen" >
 		<h1> My Human Event </h1>
 
-		<nav class="header">
-		<a href="./" target="_self">About</a>
-		
-		<a href="stories.html" target="_self">Stories</a>
+		<nav class="main">
 
+			<ul>
+				<li><a href="./" target="_self">About</a></li>
 
-		<a href="resources.html" target="_self">Resources</a>
+				<li>
+				  <a href="stories.html" target="_self">Stories</a>
+				  <ul class="dropdown">
+					<li><a href="#">Story 1</a></li>
+					<li><a href="#">Story 2</a></li>
+					<li><a href="#">Story 3</a></li>
+					<li><a href="#">Story 4</a></li>
+				  </ul>
+				</li>
+
+				<li><a href="resources.html" target="_self">Resources</a></li>
+			</ul>
+
 		</nav>
 
 	</header>
-	
 	
 
 	
