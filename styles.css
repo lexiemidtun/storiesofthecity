@@ -135,3 +135,14 @@ nav.main li ul.dropdown a {
 nav.main li ul.dropdown a:hover {
 	background-color: rgba(220, 220, 220, 0.9);
 }
+
+
+
+/*TITLES ON STORY PAGE*/
+h2.storyTitle{
+	text-align: center;
+}
+
+h3.storyAuthor{
+	text-align: center;
+}
