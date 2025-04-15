@@ -138,11 +138,20 @@ nav.main li ul.dropdown a:hover {
 
 /*BODY SETTINGS*/
 .subStories{
-	background-color: #f1f2f3;
+	background-color: #fafafa;
 	
 	overflow: hidden;	
 	justify-content: center;
 	align-items: center;
+	width: 100%;
+	min-height: 100vh;
+
+	font-size: clamp(5px, 3vw, 25px);
+}
+
+.writing{
+	background-color: #ffffff;
+
 	width: 100%;
 	min-height: 100vh;
 }
@@ -157,5 +166,21 @@ h2.storyTitle{
 h3.storyAuthor{
 	text-align: center;
 	font-weight: 600;
-	font-size: clamp(5px, 3vw, 25px)
+	font-size: clamp(5px, 3vw, 25px);
+
+	margin-top: 0.25em;
+}
+
+.subStories .divider{
+	height: .5em;
+	background-image:linear-gradient(to bottom, #fafafa, #f0f0f0);
+		
+
+	margin-top: 0em;
+	margin-bottom:0;
+	width: 100%;
+	
+	display: block;
+	margin-left:auto;
+	margin-right: auto;
 }
