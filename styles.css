@@ -258,3 +258,16 @@ h3.storyAuthor{
 	font-size: clamp(5px, 3vw, 21px);
 	font-style: italic;
 }
+
+.ovidStorySection ol{
+	
+	list-style-position: inside;
+}
+
+.ovidStorySectionText li{
+	margin-top: .75em;
+	margin-bottom:.75em;
+	
+	font-weight: 300;
+	
+}
