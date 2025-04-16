@@ -351,8 +351,3 @@ p.line{
 	flex-grow:1;
 	object-fit: cover;
 }
-
-#changeBackground{
-	background-color: #f8f8f8;
-	width: 100%
-}
