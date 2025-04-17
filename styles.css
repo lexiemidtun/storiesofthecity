@@ -233,7 +233,8 @@ h3.storyAuthor{
 }
 
 .ovidStorySection .imageWithCaption{
-	margin-right: 1em;
+	float: right;
+	margin-left: 1em;
 	margin-bottom: 0.5em;
 }
 
