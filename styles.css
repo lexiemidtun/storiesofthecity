@@ -195,11 +195,11 @@ h3.storyAuthor{
 
 /*WRITING FORMAT*/
 .writing{
-	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
 	
 	text-align: left;
+	justify-content: center;
 	font-family: "Fira Sans Condensed", sans-serif; 
 	font-size: clamp(5px, 3vw, 23px);
 }
@@ -207,7 +207,10 @@ h3.storyAuthor{
 .ovidStorySection{
 	margin-top: 2em;
 	margin-bottom: 3em;
+	margin-left: auto;
+	margin-right: auto;
 	overflow: auto;
+	width:90%;
 	
 }
 
@@ -219,6 +222,7 @@ h3.storyAuthor{
 	width: auto;
 	height: auto;
 	max-width: clamp(5px, 30vw, 450px);
+	margin-top:0.5em;
 	
 }
 
@@ -252,9 +256,6 @@ h3.storyAuthor{
 	margin-bottom:0.2em;
 }
 
-.ovidStorySectionText{
-	margin-bottom: 
-}
 
 .ovidStorySectionText h4{
 	font-weight: 600;
@@ -298,7 +299,10 @@ p.line{
 .centerSection{
 	margin-top: 1em;
 	margin-bottom: 1em;
+	margin-right:auto;
+	margin-left:auto;
 	overflow: auto;
+	width:90%;
 }
 
 .centerSection:first-of-type{
@@ -306,6 +310,7 @@ p.line{
 }
 
 .rightSection{
+	width:90%;
 	margin-top: 0em;
 	margin-bottom: 1em;
 	overflow: auto;
@@ -326,7 +331,10 @@ p.line{
 .imageSection{
 	margin-top: 1em;
 	margin-bottom: 1em;
+	margin-left:auto;
+	margin-right:auto;
 	overflow: auto;
+	width:90%;
 	
 	padding:1em;
 	display: flex;
@@ -350,4 +358,14 @@ p.line{
 	height: auto;
 	flex-grow:1;
 	object-fit: cover;
+}
+
+#altBackgroundSection{
+	background-color: #fafafa;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+	
 }
