@@ -142,7 +142,7 @@ nav.main li ul.dropdown a:hover {
 }
 
 /*BODY SETTINGS*/
-.subStories{
+.subPage, .subStories{
 	background-color: #fafafa;
 	
 	overflow: hidden;	
@@ -162,7 +162,7 @@ nav.main li ul.dropdown a:hover {
 }
 
 /*TITLES ON STORY PAGE*/
-h2.storyTitle{
+h2{
 	padding-top: 0.25em;
 	text-align: center;
 	font-weight: 800;
@@ -178,7 +178,7 @@ h3.storyAuthor{
 }
 
 /*DIVIIDER*/
-.subStories .divider{
+.divider{
 	height: .5em;
 	background-image:linear-gradient(to bottom, #fafafa, #f0f0f0);
 		
