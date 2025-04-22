@@ -9,6 +9,13 @@ p{
 	line-height: 1.5;
 }
 
+body{
+	display:flex;
+	flex-direction: column;
+	min-height: 100vh;
+	margin: 0;
+}
+
 /* Header Styling */
 header {
 	background-image: url('images/floatingBooksImage.jpg');
@@ -141,7 +148,11 @@ nav.main li ul.dropdown a:hover {
 	background-color: rgba(220, 220, 220, 0.9);
 }
 
-/*BODY SETTINGS*/
+/*MAIN SETTINGS*/
+main{
+	flex-grow: 1;
+}
+
 .subPage, .subStories{
 	background-color: #f0f0f0;
 	
@@ -151,6 +162,7 @@ nav.main li ul.dropdown a:hover {
 	width: 100%;
 
 	font-size: clamp(5px, 3vw, 25px);
+	
 }
 
 .writingSection{
@@ -158,7 +170,7 @@ nav.main li ul.dropdown a:hover {
 	padding-top: 1em;
 
 	width: 100%;
-	padding-bottom: 10vh;
+	padding-bottom: 0;
 }
 
 /*TITLES ON STORY PAGE*/
@@ -214,8 +226,8 @@ h3.storyAuthor{
 	
 }
 
-.ovidStorySection:last-of-type{
-	margin-bottpm: 50vh;
+.ovidStorySection:last-child{
+	padding-bottom:1em;
 }
 
 .ovidStoryImage{
@@ -310,6 +322,8 @@ p.line{
 	margin-top: 0;
 }
 
+
+
 .rightSection{
 	width:90%;
 	margin-top: 0em;
@@ -369,4 +383,74 @@ p.line{
 	padding-top:0.5em;
 	padding-bottom:0.5em;
 	
+}
+
+.workList{
+	list-style-type: none;
+	margin-top: 1em;
+	
+}
+
+.workList li::before{
+	content: "- ";
+
+}
+
+.workList li{
+	margin-bottom: 0.75em;
+}
+ 
+.workList li:last-child{
+	margin-bottom: 0;
+}
+
+.workList a{
+	text-decoration: none;
+	color: black;
+}
+
+.workList a:hover{
+	color: #606060;
+}
+
+/*FOOTER*/
+
+footer{
+	position: static;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0.5em;
+	background-color: #303030;
+
+	bottom: 0;
+	left: 0;
+
+	font-size: clamp(5px, 5vw, 18px);
+	
+	color: white;
+}
+
+.footerLeft{
+
+}
+
+.footerLeft a{
+	text-decoration: none;
+	color: white;
+	
+	font-family: "Fira Sans Condensed", sans-serif;
+	font-weight: 600;
+	
+	
+}
+
+.footerLeft a:hover{
+	color: #e0e0e0;
+}
+
+.footerRight{
+
 }
