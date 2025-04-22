@@ -143,7 +143,7 @@ nav.main li ul.dropdown a:hover {
 
 /*BODY SETTINGS*/
 .subPage, .subStories{
-	background-color: #fafafa;
+	background-color: #f0f0f0;
 	
 	overflow: hidden;	
 	justify-content: center;
@@ -180,7 +180,7 @@ h3.storyAuthor{
 /*DIVIIDER*/
 .divider{
 	height: .5em;
-	background-image:linear-gradient(to bottom, #fafafa, #f0f0f0);
+	background-image:linear-gradient(to bottom, #f0f0f0, #e8e8e8);
 		
 
 	margin-top: 0em;
