@@ -389,6 +389,7 @@ p.line{
 	
 }
 
+/*STORY LIST*/
 .workList{
 	list-style-type: none;
 	margin-top: 1em;
@@ -415,6 +416,33 @@ p.line{
 
 .workList a:hover{
 	color: #606060;
+}
+
+/*RESOURCE LIST*/
+.resourceList{
+	font-family: "Fira Sans Condensed", sans-serif;
+	white-space: normal;
+	overflow-wrap: break-word;
+	
+}
+
+.resourceList li{
+	margin-bottom: 1em;
+	font-size: clamp(5px, 3vw, 21px);
+}
+
+.resourceList li:last-child{
+	margin-bottom: 0;
+}
+
+#resourceListTitle{
+	margin-bottom: 0.5em;
+	font-size: clamp(10px, 10vw, 28px);
+	font-weight: bold;
+}
+
+.resourceList li::before{
+	content: "- ";
 }
 
 /*FOOTER*/
