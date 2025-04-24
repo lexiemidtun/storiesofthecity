@@ -178,7 +178,7 @@ main{
 }
 
 #aboutText{
-	font-size: clamp(5px, 4vw, 30px);
+	font-size: clamp(5px, 4vw, 23px);
 	font-family: "Fira Sans Condensed", sans-serif; 
 }
 
@@ -437,7 +437,7 @@ p.line{
 
 .resourceList li{
 	margin-bottom: 1em;
-	font-size: clamp(5px, 4vw, 26px);
+	font-size: clamp(5px, 4vw, 20px);
 	
 	padding-left:4em;
 	text-indent:-4em;
