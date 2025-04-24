@@ -437,7 +437,7 @@ p.line{
 
 .resourceList li{
 	margin-bottom: 1em;
-	font-size: clamp(5px, 4vw, 20px);
+	font-size: clamp(5px, 4vw, 21px);
 	
 	padding-left:4em;
 	text-indent:-4em;
