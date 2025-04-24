@@ -40,14 +40,14 @@ header::before {
 }
 
 header.mainscreen {
-	min-height: 400px;
-	max-height: 600px;
+	min-height: 500px;
+	max-height: 800px;
 	width: 100%;
 }
 
 header h1 {
 	color: white;
-	font-size: clamp(20px, 10vw, 90px);
+	font-size: clamp(20px, 10vw, 100px);
 	margin-bottom: 40px;
 	white-space: nowrap;
 	font-family: "Merriweather", serif;
@@ -93,7 +93,7 @@ nav.main ul li {
 }
 
 nav.main ul li a {
-	font-size: clamp(5px, 5vw, 22px);
+	font-size: clamp(5px, 5vw, 28px);
 	color: white;
 	text-decoration: none;
 	font-family: "Merriweather", serif;
@@ -171,6 +171,15 @@ main{
 
 	width: 100%;
 	padding-bottom: 0;
+}
+
+#aboutPage{
+	background-color: #f0f0f0;
+}
+
+#aboutText{
+	font-size: clamp(5px, 4vw, 35px);
+	font-family: "Fira Sans Condensed", sans-serif; 
 }
 
 /*TITLES ON STORY PAGE*/
@@ -428,17 +437,15 @@ p.line{
 
 .resourceList li{
 	margin-bottom: 1em;
-	font-size: clamp(5px, 3vw, 21px);
+	font-size: clamp(5px, 4vw, 26px);
+	
+	padding-left:4em;
+	text-indent:-4em;
 }
+
 
 .resourceList li:last-child{
 	margin-bottom: 0;
-}
-
-#resourceListTitle{
-	margin-bottom: 0.5em;
-	font-size: clamp(10px, 10vw, 28px);
-	font-weight: bold;
 }
 
 .resourceList li::before{
@@ -486,3 +493,4 @@ footer{
 .footerRight{
 
 }
+
