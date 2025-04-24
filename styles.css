@@ -178,7 +178,7 @@ main{
 }
 
 #aboutText{
-	font-size: clamp(5px, 4vw, 35px);
+	font-size: clamp(5px, 4vw, 30px);
 	font-family: "Fira Sans Condensed", sans-serif; 
 }
 
